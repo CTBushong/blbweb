@@ -1,6 +1,6 @@
 {
-  "name": "tax-diner",
-  "description": "A casual podcast for tax professionals.",
+  "name": "blbweb",
+  "description": "Bush Leage Business website.",
   "engines": {
     "node": ">=8.1.2"
   },
@@ -13,8 +13,8 @@
   },
   "now": {
     "alias": [
-      "taxdiner",
-      "taxdiner.com"
+      "bushleaguebusiness",
+      "bushleaguebusiness.com"
     ]
   },
   "dependencies": {

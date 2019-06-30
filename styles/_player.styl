@@ -114,10 +114,10 @@
     flex-wrap wrap
     flex 1 0 auto
     &:focus-within
-      outline: brown auto 5px;
+      outline: #ffef02 auto 5px;
     &:hover
       label
-        border-top 1px solid brown
+        border-top 1px solid #ffef02
     label
       border-top 1px solid #79AD54
       &:hover
@@ -127,7 +127,7 @@
       width 100%
       margin 0
     input ~ label
-      background #79AD54
+      background #ffef02
       border-right 2px solid black
       display inline-block
       width 8px
@@ -135,7 +135,7 @@
     input:checked ~ label
       background grey
     input:checked + label
-      background #79AD54
+      background #ffef02
 
 .progress
   background lighten(#000,5%)
@@ -143,7 +143,7 @@
   cursor crosshair
   overflow hidden
   &__time
-    background green
+    background #ffef02
     border-right 1px solid rgba(0,0,0,0.1)
     min-width 20px
     height 100%

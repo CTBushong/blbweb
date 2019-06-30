@@ -5,8 +5,8 @@ const Header = () => (
   <header className="header">
     <div className="header__left">
       <Link href="/">
-        <a aria-label="TaxDiner.com">
-          <img className="header__logo" src="/static/tax-diner.svg" alt="Tax Diner" />
+        <a aria-label="BushLeagueBusiness.com">
+          <img className="header__logo" src="/static/BLB_Logo.jpg" alt="Bush Leage Business: A Small Business Podcast" />
         </a>
       </Link>
     </div>
@@ -14,7 +14,8 @@ const Header = () => (
     
       <div className="title" />
       <div className="title">
-        <h2 className="tagline">The Podcast Where Tax Professionals Chew the Fat</h2>
+        <h2 className="tagline">A small business podcast. With jokes.</h2>
+        <h3 className="tagline">(And no web designer)</h3>
       </div>
       
     </div>

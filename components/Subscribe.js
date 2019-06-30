@@ -4,10 +4,10 @@ const Subscribe = props => (
       <li className="subscribe__link subscribe__link--itunes">
         <a
           target="_blank"
-          href="https://itunes.apple.com/us/podcast/tax-diner/id1453920174"
+          href="https://podcasts.apple.com/us/podcast/bush-league-bushiness/id1470246301"
           rel="noopener noreferrer"
         >
-          iTunes
+          Apple Podcasts
         </a>
       </li>
       {/*
@@ -32,6 +32,7 @@ const Subscribe = props => (
         </a>
       </li>
     */}
+     {/*
       <li className="subscribe__link subscribe__link--stitcher">
         <a
           target="_blank"
@@ -46,6 +47,7 @@ const Subscribe = props => (
           PocketCasts
         </a>
       </li>
+      */}
       <li className="subscribe__link subscribe__link--googleplay">
         <a
           target="_blank"
@@ -55,6 +57,7 @@ const Subscribe = props => (
           Google Play
         </a>
       </li>
+      {/*
       <li className="subscribe__link subscribe__link--spotify">
         <a
           target="_blank"
@@ -64,33 +67,35 @@ const Subscribe = props => (
           Spotify
         </a>
       </li>
-      <li className="subscribe__link subscribe__link--rss">
-        <a
-          target="_blank"
-          href="http://taxdiner.com/static/rss/rss.xml"
-          rel="noopener noreferrer"
-        >
-          RSS
-        </a>
-      </li>
+      */}
+     
       <li className="subscribe__link subscribe__link--youtube">
         <a
           target="_blank"
-          href="https://www.youtube.com/channel/UCo9bjvlwll7ypgRScqmS5ww"
+          href="https://www.youtube.com/channel/UCa7SPPcB63H4V5cDAbuPdQA"
           rel="noopener noreferrer"
         >
           YouTube
         </a>
       </li>
-      <li className="subscribe__link subscribe__link--twitter">
+      <li className="subscribe__link subscribe__link--insta">
         <a
           target="_blank"
-          href="http://twitter.com/TaxDiner"
+          href="https://www.instagram.com/bushleaguebusiness/"
           rel="noopener noreferrer"
         >
-          @TaxDiner
+          @bushleaguebusiness
         </a>
       </li>
+      <li className="subscribe__link subscribe__link--rss">
+      <a
+        target="_blank"
+        href="https://s3.us-west-1.wasabisys.com/blb/BLB_Podcast_Feed.xml"
+        rel="noopener noreferrer"
+      >
+        RSS
+      </a>
+    </li>
     </ul>
   </div>
 );

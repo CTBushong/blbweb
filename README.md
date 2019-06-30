@@ -1,8 +1,8 @@
-# Tax Diner.
+# Bush Leage Business.
 
-A tasty treats podcast for Web Developers.
+A small business podcast.
 
-This is the site that runs [TaxDiner.com](https://taxdiner.com) — go there to listen to it!
+This is the site that runs [BushLeagueBusiness.com](https://bushleaguebusiness.com) — go there to listen to it!
 
 This site is built on React and Next.js
 

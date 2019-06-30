@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => (
   <footer className="bottom">
-    <p>&copy; Chris Bushong {new Date().getFullYear()}</p>
+    <p>&copy; Chris and Dan Bushong {new Date().getFullYear()}</p>
     <p>
       Website shamelessly copied from Wes Bos and Scott Tolinski at {' '}
       <a
